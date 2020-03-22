@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>JavaScript Task 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <style>
+        html {
+            background: #cacaca;
+            font-family: 'Muli', sans-serif;
+            text-align: center;
+        }
+
+        #details {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <div id="details"></div>
+    <div id="odd_numbers"></div>
+
+    <script>
+        let FullName = "Enouwem Jim",
+            courses = ["HTML", "CSS", "JavaScript"];
+        document.getElementById("details").innerHTML =
+            `<b>Name:</b> ${FullName}<br><br><b>Courses:</b> ${courses.join(" ")}`;
+
+        for (let i = 1; i <= 200; i += 2)
+            document.getElementById("odd_numbers").innerHTML += i + "<br>";
+    </script>
+</body>
+
+</html>
