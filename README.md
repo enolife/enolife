@@ -1,2 +1,2 @@
 # enolife
-StartNG 2020 - GIT Task 1
+StartNG 2020
