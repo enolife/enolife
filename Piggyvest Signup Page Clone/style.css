@@ -1,0 +1,25 @@
+@font-face {
+    font-family: u8;
+    src: url(/static/media/U8-Regular.a8ddeca8.eot);
+    src: url(/static/media/U8-Regular.a8ddeca8.eot?#iefix) format("embedded-opentype"), url(/static/media/U8-Regular.c7b44a2f.svg#U8-Regular) format("svg"), url(/static/media/U8-Regular.820f97d2.ttf) format("truetype"), url(/static/media/U8-Regular.943d74ea.woff) format("woff"), url(/static/media/U8-Regular.59ecebd0.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: "u8";
+    background: url("https://res.cloudinary.com/dvhndpbun/image/upload/v1585926632/piggyvest_bg.png") center center no-repeat fixed;
+    background-size: 100vw 100%;
+}
