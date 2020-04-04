@@ -204,6 +204,7 @@ footer a:hover {
 @media (max-width: 420px) {
     i {
         padding-left: 270px;
+        margin-top: 9px;
     }
 }
 
