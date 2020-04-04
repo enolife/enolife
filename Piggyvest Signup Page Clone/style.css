@@ -116,7 +116,7 @@ input::-moz-placeholder {
 i {
     position: absolute;
     right: 40px;
-    color: #777676;
+    color: #b7b3b3;
     margin-top: 12px;
     font-style: normal;
     font-size: 23px;
@@ -208,6 +208,6 @@ footer a:hover {
 
     i {
         margin-top: 9px;
-        -webkit-text-stroke: 2.4px #eef4f5fa;
+        -webkit-text-stroke: 2.1px #eef4f5fa;
     }
 }
