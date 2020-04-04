@@ -1,6 +1,6 @@
 @font-face {
     font-family: "u8";
-    src: url("./assets/U8-Regular.woff2") format("woff2");
+    src: url("./assets/U8-Regular.ttf") format("woff2");
     font-weight: 400;
     font-style: normal
 }
@@ -28,11 +28,10 @@ a {
     text-decoration: none;
 }
 
-
 .logo_cont {
     padding-top: 3rem;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 45px;
 }
 
 .main_cont {
@@ -55,6 +54,7 @@ header {
     color: #083e9e;
     text-align: center;
     margin: 0;
+    padding-bottom: 4px;
 }
 
 .header-text_sm {
@@ -113,6 +113,16 @@ input::-moz-placeholder {
     margin: auto;
 }
 
+i {
+    position: absolute;
+    padding-left: 325px;
+    color: #777676;
+    margin-top: 12px;
+    font-style: normal;
+    font-size: 23px;
+    -webkit-text-stroke: 1.8px #eef4f5fa;
+}
+
 .submit-btn {
     text-transform: uppercase;
     background: #083e9e;
@@ -140,19 +150,77 @@ footer {
     font-family: 'Karla', sans-serif;
     font-size: 14px;
     color: #fff;
-    margin: 40px;
+    margin: 35px auto 50px;
 }
 
 footer a:hover {
     color: #b3b3b3;
 }
 
-i {
-    position: absolute;
-    padding-left: 325px;
-    color: #777676;
-    margin-top: 12px;
-    font-style: normal;
-    font-size: 23px;
-    -webkit-text-stroke: 1.2px #f3f9ff;
+@media (max-width: 500px) {
+    body {
+        background: url(https://res.cloudinary.com/dvhndpbun/image/upload/v1585926632/piggyvest_bg.png) center top no-repeat fixed;
+        background-size: 100vw 28%;
+        background-color: #032665;
+    }
+
+    .header-text_lg {
+        font-size: 20px;
+    }
+
+    .main_cont {
+        max-width: 92%;
+        padding-top: 35px;
+    }
+
+    header {
+        margin: 0 auto 38px auto;
+    }
+
+    .signup-form,
+    header {
+        max-width: 83%;
+    }
+
+    .form_input {
+        max-width: 100%;
+        padding: 16px 14px 14px;
+    }
+
+    i {
+        padding-left: 322px;
+        margin-top: 7px;
+    }
+
+    .submit-btn {
+        margin-bottom: 40px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 420px) {
+    i {
+        padding-left: 270px;
+    }
+}
+
+@media (max-width: 375px) {
+    i {
+        padding-left: 240px;
+    }
+}
+
+@media (max-width: 360px) {
+    i {
+        padding-left: 228px;
+    }
+}
+
+@media (max-width: 321px) {
+    i {
+        padding-left: 200px;
+    }
 }
