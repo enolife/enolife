@@ -208,5 +208,6 @@ footer a:hover {
 
     i {
         margin-top: 9px;
+        -webkit-text-stroke: 2.4px #eef4f5fa;
     }
 }
