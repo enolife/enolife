@@ -115,12 +115,16 @@ input::-moz-placeholder {
 
 i {
     position: absolute;
-    padding-left: 325px;
+    right: 40px;
     color: #777676;
     margin-top: 12px;
     font-style: normal;
     font-size: 23px;
     -webkit-text-stroke: 1.8px #eef4f5fa;
+}
+
+.input_select {
+    position: relative;
 }
 
 .submit-btn {
@@ -188,7 +192,6 @@ footer a:hover {
     }
 
     i {
-        padding-left: 322px;
         margin-top: 7px;
     }
 
@@ -202,26 +205,8 @@ footer a:hover {
 }
 
 @media (max-width: 420px) {
+
     i {
-        padding-left: 270px;
         margin-top: 9px;
-    }
-}
-
-@media (max-width: 375px) {
-    i {
-        padding-left: 240px;
-    }
-}
-
-@media (max-width: 360px) {
-    i {
-        padding-left: 228px;
-    }
-}
-
-@media (max-width: 321px) {
-    i {
-        padding-left: 200px;
     }
 }
