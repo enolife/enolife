@@ -14,8 +14,7 @@ const data = [{
         {
             principal: 2000,
             time: 3
-        }
-    ],
+        }],
 
 // function
     interestCalculator = i => {
