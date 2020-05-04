@@ -321,6 +321,7 @@ h1::before {
     width: 70%;
     line-height: 2;
     margin: 0 auto;
+    text-align: center;
 }
 
 .refresh-content svg {
@@ -347,6 +348,10 @@ h1::before {
 
     label {
         font-size: .71rem;
+    }
+
+    label .alphabet {
+        margin: 0 .9rem 0 .7rem;
     }
 
     .jshdgdgwgdwfdfwdwjfdjwwdwdco:checked+label {
@@ -382,4 +387,32 @@ h1::before {
     .over-text-cont #btn {
         padding: 3px 0;
     }
-}
+
+    .refresh-content {
+        width: 90%;
+    }
+
+    .refresh-content {
+        display: grid;
+        font-size: .8rem;
+    }
+
+    @media (max-width: 325px) {
+
+        label {
+            font-size: .63rem;
+        }
+
+        label .alphabet {
+            margin: 0 .55rem 0 .7rem;
+        }
+
+        label .jdsjkefkefkefefexco {
+            width: 14px;
+        }
+
+        label .jfdedgwfzexf4hjin {
+            width: 12px;
+        }
+
+    }
