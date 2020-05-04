@@ -8,10 +8,16 @@ html {
     box-sizing: inherit;
 }
 
+html,
+body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
 body {
     background: #a8c0ff;
     font-family: 'Comfortaa', cursive;
-    overflow-y: hidden;
     color: #fff;
     user-select: none;
     margin: 0;
