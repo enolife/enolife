@@ -403,23 +403,24 @@ h1::before {
         display: grid;
         font-size: .8rem;
     }
+}
 
-    @media (max-width: 325px) {
+@media (max-width: 325px) {
 
-        label {
-            font-size: .63rem;
-        }
-
-        label .alphabet {
-            margin: 0 .55rem 0 .7rem;
-        }
-
-        label .jdsjkefkefkefefexco {
-            width: 14px;
-        }
-
-        label .jfdedgwfzexf4hjin {
-            width: 12px;
-        }
-
+    label {
+        font-size: .63rem;
     }
+
+    label .alphabet {
+        margin: 0 .55rem 0 .7rem;
+    }
+
+    label .jdsjkefkefkefefexco {
+        width: 14px;
+    }
+
+    label .jfdedgwfzexf4hjin {
+        width: 12px;
+    }
+
+}
