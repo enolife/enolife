@@ -224,7 +224,7 @@ form:invalid #btn {
 #game-over {
     background: linear-gradient(rgb(28, 22, 49), rgba(18, 18, 25, 0.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px);
     font-family: 'Bungee', cursive;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 100vh;
 }
