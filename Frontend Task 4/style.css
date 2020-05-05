@@ -196,6 +196,7 @@ input:valid+label {
 
 form:invalid #btn {
     pointer-events: none;
+    background: rgba(248, 214, 214, 0.767);
 }
 
 .btn:hover {
